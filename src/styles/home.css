@@ -1,0 +1,12 @@
+@keyframes pulse-live {
+    0%, 100% {
+        opacity: 1;
+    }
+    50% {
+        opacity: .4;
+    }
+}
+
+.animate-pulse-live {
+    animation: 2s ease-in-out infinite pulse-live;
+}
