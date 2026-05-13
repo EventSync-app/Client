@@ -47,7 +47,7 @@ const iconHighlighted = iconBase + " bg-[#d4d8f8] text-[var(--color-accent-dark)
 
 function FeaturesSection() {
     return (
-        <section className="flex flex-col items-center py-16 px-6 gap-6">
+        <section id="feature-section" className="flex flex-col items-center py-16 px-6 gap-6">
 
             <div className="border border-[var(--color-gray)] rounded-full px-5 py-1">
                 <span className="text-xs font-semibold tracking-widest text-[var(--black)] uppercase">
