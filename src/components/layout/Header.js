@@ -1,6 +1,6 @@
 function Header() {
     return (
-        <header className="header bg-[var(--white-background)] sticky top-0 px-[50px] py-4 flex flex-row justify-between items-center">
+        <header className="header z-1000 bg-[var(--white-background)] sticky top-0 px-[50px] py-4 flex flex-row justify-between items-center">
             <div className="header_brand flex justify-center items-center">
                 <h1 className="text-2xl font-bold">
                     <span>Event</span>
