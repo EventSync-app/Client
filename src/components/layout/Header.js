@@ -9,9 +9,9 @@ function Header() {
             </div>
             <nav className="header_nav hidden lg:block">
                 <ul className="flex flex-row justify-center items-center gap-10">
-                    <li>Fonctionnalité</li>
-                    <li>Comment ça marche</li>
-                    <li>rôles</li>
+                    <li><a href="#feature-section">Fonctionnalité</a></li>
+                    <li><a href="#how-it-works-section">Comment ça marche</a></li>
+                    <li><a href="#roles-section">rôles</a></li>
                 </ul>
             </nav>
             <div className="header_actions hidden lg:flex flex flex-row justify-center items-center gap-6">
