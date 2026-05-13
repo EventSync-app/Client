@@ -1,5 +1,10 @@
+import HeroSection from "@/components/home/HeroSection";
+import "@/styles/home.css";
+
 export default function Home() {
   return (
-    <h1 className="text-4xl font-bold">Hello world!</h1>
+    <>
+      <HeroSection />
+    </>
   );
 }
