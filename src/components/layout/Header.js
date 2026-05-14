@@ -2,7 +2,6 @@ import LogoLight from "../shared/LogoLight";
 
 function Header() {
     return (
-      feature/homepage-ui
         <header className="header bg-[var(--white-background)] sticky top-0 px-[50px] py-4 flex flex-row justify-between items-center">
             <div className="header_brand flex justify-center items-center gap-3">
                 <LogoLight />
