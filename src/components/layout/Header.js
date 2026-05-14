@@ -2,6 +2,7 @@ import LogoLight from "../shared/LogoLight";
 
 function Header() {
     return (
+      feature/homepage-ui
         <header className="header bg-[var(--white-background)] sticky top-0 px-[50px] py-4 flex flex-row justify-between items-center">
             <div className="header_brand flex justify-center items-center gap-3">
                 <LogoLight />
@@ -12,9 +13,9 @@ function Header() {
             </div>
             <nav className="header_nav hidden lg:block">
                 <ul className="flex flex-row justify-center items-center gap-10">
-                    <li>Fonctionnalité</li>
-                    <li>Comment ça marche</li>
-                    <li>rôles</li>
+                    <li><a href="#feature-section">Fonctionnalité</a></li>
+                    <li><a href="#how-it-works-section">Comment ça marche</a></li>
+                    <li><a href="#roles-section">rôles</a></li>
                 </ul>
             </nav>
             <div className="header_actions hidden lg:flex flex flex-row justify-center items-center gap-6">
